@@ -2,10 +2,17 @@ Rails.application.routes.draw do
 
   
   root to: 'products#index'
+  get 'users/new'
+  get 'users/create'
+  get 'sessions/new'
+  get 'sessions/create'
+  get 'sessions/destroy'
   get '/about', to: 'about#index'
 
   resources :products, only: [:index, :show]
   resources :categories, only: [:show]
+  resources :users, only: [:new, :create]
+  resource :session, only: [:new, :create, :destroy], path_names: { new: 'login' }
 
   resource :cart, only: [:show] do
     post   :add_item

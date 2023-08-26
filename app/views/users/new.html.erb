@@ -1,0 +1,64 @@
+<section class="admin-products-new">
+
+  <header class="page-header">
+    <h1>Register New User</h1>
+  </header>
+
+  <div class="well">
+    <%= link_to 'Back to Home', root_path, class: 'btn btn-info' %>
+  </div>
+
+  <div class="row">
+    <div class="col-sm-6 col-sm-offset-1">
+
+       <%= form_for @user do |form| %>
+
+        <!-- Error Messages -->
+        <% if form.object.errors.any? %>
+          <div class="alert alert-danger">
+            <strong>Registration failed:</strong>
+            <ul>
+              <% form.object.errors.full_messages.each do |error| %>
+                <li><%= error %></li>
+              <% end %>
+            </ul>
+          </div>
+        <% end %>
+
+        <!-- First Name Field -->
+        <div class="form-group">
+          <%= form.label :first_name %>
+          <%= form.text_field :first_name, class: 'form-control' %>
+        </div>
+
+        <!-- Last Name Field -->
+        <div class="form-group">
+          <%= form.label :last_name %>
+          <%= form.text_field :last_name, class: 'form-control' %>
+        </div>
+
+        <!-- Email Field -->
+        <div class="form-group">
+          <%= form.label :email %>
+          <%= form.email_field :email, class: 'form-control' %>
+        </div>
+
+        <!-- Password Field -->
+        <div class="form-group">
+          <%= form.label :password %>
+          <%= form.password_field :password, class: 'form-control' %>
+        </div>
+
+        <!-- Password Confirmation Field -->
+        <div class="form-group">
+          <%= form.label :password_confirmation, "Confirm Password" %>
+          <%= form.password_field :password_confirmation, class: 'form-control' %>
+        </div>
+
+        <%= form.submit 'Register', class: 'btn btn-primary' %>
+      <% end %>
+
+    </div>
+  </div>
+
+</section>
