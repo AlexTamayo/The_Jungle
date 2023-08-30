@@ -11,14 +11,14 @@ A mini e-commerce application built with Rails 6.1 for purposes of learning Rail
 
 # Demo
 
-
-
-
-
 https://github.com/AlexTamayo/jungle-rails/assets/3316856/7982f5b6-7c9c-41ef-b9fc-fd0d7ad14e07
 
 
+![image_1](./docs/README_assets/images/1.png)
 
+![image_2](./docs/README_assets/images/2.png)
+
+![image_3](./docs/README_assets/images/3.png)
 
 
 ## Setup
