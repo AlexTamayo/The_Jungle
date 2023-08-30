@@ -11,21 +11,11 @@ A mini e-commerce application built with Rails 6.1 for purposes of learning Rail
 
 # Demo
 
-<video width="1920" height="1080" controls>
-  <source src="https://github.com/AlexTamayo/jungle-rails/blob/master/docs/README_assets/videos/video.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+Vid
 
-<video width="1280" height="720" controls>
-  <source src="./docs/README_assets/videos/video.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+https://github.com/AlexTamayo/jungle-rails/assets/3316856/75eca1ba-f862-41ab-b8ca-8ff4339d52bc
 
-
-
-https://github.com/AlexTamayo/jungle-rails/assets/3316856/b253a139-5805-4e54-a11c-98ee4161d531
-
-
+eo Here
 
 ## Setup
 
