@@ -1,6 +1,21 @@
 # Jungle
 
-A mini e-commerce application built with Rails 6.1 for purposes of teaching Rails by example.
+A mini e-commerce application built with Rails 6.1 for purposes of learning Rails by example.
+
+ * Browse and search products by category.
+ * View detailed product descriptions, prices, and availability.
+ * Add products to your cart and proceed to checkout.
+ * Apply discounts and view the final order total.
+ * User authentication and account management.
+ * Admin dashboard for managing products, categories, and sales.
+
+# Demo
+
+<video width="1920" height="1080" controls>
+  <source src="./docs/README_assets/videos/video.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+
 
 ## Setup
 
@@ -29,3 +44,5 @@ More information in their docs: <https://stripe.com/docs/testing#cards>
 - Bootstrap 5
 - PostgreSQL 9.x
 - Stripe
+
+
