@@ -22,6 +22,11 @@ A mini e-commerce application built with Rails 6.1 for purposes of learning Rail
 </video>
 
 
+
+https://github.com/AlexTamayo/jungle-rails/assets/3316856/b253a139-5805-4e54-a11c-98ee4161d531
+
+
+
 ## Setup
 
 1. Run `bundle install` to install dependencies
