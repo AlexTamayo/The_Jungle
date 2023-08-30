@@ -13,7 +13,7 @@ A mini e-commerce application built with Rails 6.1 for purposes of learning Rail
 
 Vid
 
-https://github.com/AlexTamayo/jungle-rails/assets/3316856/75eca1ba-f862-41ab-b8ca-8ff4339d52bc
+https://github.com/AlexTamayo/jungle-rails/assets/3316856/75eca1ba-f862-41ab-b8ca-8ff4339d52bc.mp4
 
 eo Here
 
